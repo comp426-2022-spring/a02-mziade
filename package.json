@@ -1,0 +1,23 @@
+{
+  "name": "a02-mziade",
+  "version": "1.0.0",
+  "description": "coin flip package",
+  "main": "flip.js",
+  "scripts": {
+    "flip": "node flip.js",
+    "flips": "node flips.js",
+    "guess-flip": "node guess-flip.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a02-mziade.git"
+  },
+  "author": "Mia Ziade",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-mziade/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-mziade#readme",
+  "type": "module"
+}
