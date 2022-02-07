@@ -39,7 +39,7 @@ function coinFlip() {
 
 function coinFlips(flips) {
   const arr = []
-  for(let i = 0; i <= flips; i++) {
+  for(let i = 1; i <= flips; i++) {
     arr.push(Math.random() > 0.5 ? ("heads") : ("tails"))
   }
   return arr
@@ -97,6 +97,6 @@ function flipACoin(call) {
  * 
  * Export all of your named functions
 */
-export {coinFlip, coinFlips, countFlips, flipACoin}
+export {coinFlip, coinFlips, countFlips, flipACoin};
 
 
