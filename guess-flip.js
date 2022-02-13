@@ -4,4 +4,9 @@ const require = createRequire(import.meta.url);
 const args = require('minimist')(process.argv.slice(2))
 args['call']
 const call = args.call
-console.log(flipACoin(call))
+if (call != "heads"|"tails") {
+    console.error(Error)
+    process.exit(1)
+} else {
+    console.log(flipACoin(call))
+}

@@ -6,5 +6,6 @@ const number = args.number || 1
 // Import the coinFlip function from your coin.mjs file
 import {coinFlips, countFlips} from './modules/coin.mjs';
 // Call the coinFlip function and put the return into STDOUT
-console.log(coinFlips(number), countFlips(coinFlips(number)))
+console.log(coinFlips(number))
+console.log(countFlips(coinFlips(number)))
 

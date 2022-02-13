@@ -84,10 +84,6 @@ function flipACoin(call) {
   const Tab = {call: "", flip: "", result: ""}
   Tab.call = call
   Tab.flip = Math.random() > 0.5 ? ("heads") : ("tails")
-  if (call != "heads"|"tails") {
-    console.error(Error)
-    process.exit(1)
-  }
   if(Tab.call == Tab.flip){
     Tab.result = "win"
   } else {
