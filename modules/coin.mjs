@@ -66,6 +66,11 @@ function countFlips(array) {
       Tab.tails = Tab.tails + 1
     }
   }
+  if(Tab.heads == 0){
+    delete Tab.heads
+  } if(Tab.tails ==0){
+    delete Tab.tails
+  }
   return(Tab)
 }
 

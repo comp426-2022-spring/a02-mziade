@@ -5,8 +5,14 @@ const args = require('minimist')(process.argv.slice(2))
 args['call']
 const call = args.call
 const userError = new TypeError("Error: no input.");
+const userError2 = new TypeError("Error: input other than heads or tails.");
+
 if (call == "heads" | call == "tails") {
     console.log(flipACoin(call))
 } else {
-    console.error(userError.message)
+    if(call == null){
+        console.error(userError.message)
+    } else{
+        console.error(userError2.message)
+    }
 }
