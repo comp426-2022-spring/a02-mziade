@@ -5,7 +5,7 @@ const args = require('minimist')(process.argv.slice(2))
 args['call']
 const call = args.call
 const userError = new TypeError("Error: no input.");
-const userError2 = new TypeError("Usage: node guess-flip --call=[heads|tails]");
+const userError2 = new TypeError("Usage: node guess-flip(.js) --call=(heads|tails).");
 
 if (call == "heads" | call == "tails") {
     console.log(flipACoin(call))
